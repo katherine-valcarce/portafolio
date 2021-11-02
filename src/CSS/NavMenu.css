@@ -1,0 +1,37 @@
+.divNavMenu{
+    background-color: white;
+    border-radius: 5px;
+    border-color: #79B4B7;
+    display: flex;
+    justify-content: center;
+}
+.buttonsNav{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    background-color: white;
+}
+.buttonNav{
+    color: black;
+    border: transparent;
+    font-size: 180%;
+    padding: 4% 8%;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+.buttonNav:hover {
+    background-size: 100% 88%;
+
+}
+.containerEachButton{
+    width: 10%;
+}
