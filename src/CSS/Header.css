@@ -4,7 +4,7 @@
 
 .titleText{
     position: absolute;
-    top: 42%;
+    top: 33%;
     left: 35%;
     font-size: 200%;
     animation: typewriter 3s steps(44) 1s 1 normal both,
@@ -17,11 +17,11 @@
 }
 .titleText2{
   position: absolute;
-  top: 48%;
+  top: 42%;
   left: 36%;
   font-size: 200%;
   animation: typewriter2 3s steps(44) 4s 1 normal both,
-  blinkTextCursor 500ms steps(44) infinite normal;
+  blinkTextCursor2 700ms steps(44) 4s infinite normal;
   transform: translateY(-50%);   
   white-space: nowrap;
   overflow: hidden;
@@ -40,14 +40,18 @@
     from{border-right-color: rgba(2, 0, 0, 0.849);}
     to{border-right-color: transparent;}
 }
+@keyframes blinkTextCursor2{
+  from{border-right-color: rgba(2, 0, 0, 0.849);}
+  to{border-right-color: transparent;}
+}
 header{
   margin-top: 7%;
 }
 .fotoPerfil{
   position: relative;
-  top: 29%;
+  top: 18%;
   left: 10%;
-  width: 15%;
+  width: 18%;
   border-radius: 15px;
   transition: border-radius 0.5s ease-out;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;

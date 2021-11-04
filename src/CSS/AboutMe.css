@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
+.containerAboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleAboutMe{
+    font-family: 'Montserrat', sans-serif;
+    color:  #0dc3c3 ;
+}
+.paragraphAboutMe{
+    color:  #2987ac ;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    width: 80%;
+    font-size: 120%;
+    line-height: 180%;
+    margin-top: 4%;
+}
+.linkLaboratoria{
+    text-decoration: none;
+    color:  #8d8b03 ;
+    font-family: 'Montserrat', sans-serif;
+}
+.containerIcon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 56%;
+    animation: float 4s infinite;
+    cursor: pointer;
+    transition: width 0.6s, heigth 0.5s;
+}
+.containerIcon:hover{
+    width: 60%;
+}
+.figureIcon{
+    display: flex;
+    justify-content: center;
+}
+.imgIcon{
+    width: 20%;
+}
+.titleIcon{
+    color:  #2987ac ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    background-color: transparent;
+    background: transparent;
+    /* box-shadow: 15px 20px 50px 0px rgb(75, 75, 75); */
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+    }
+
+.yours-custom-class{
+    display: flex;
+    margin-top: 3%;
+}
+.alice-carousel__prev-btn-item{
+    font-size: 230%;
+    float: left;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+.alice-carousel__next-btn-item{
+    font-size: 230%;
+    float: right;
+    position: absolute;
+    top: 28%;
+    right: 5%;
+}
