@@ -1,53 +1,60 @@
 {
-    "Projects": [
-      {
-        "title": "Card validation",
-        "id": "1",
-        "img": "https://imgur.com/7iaMQuH.png",
-        "description": "",
-        "github": "",
-        "deploy": ""
-      },
-      {
-        "title": "Memory Match",
-        "id": "2",
-        "img": "https://imgur.com/7iaMQuH.png",
-        "description": "",
-        "github": "",
-        "deploy": ""
-      },
-      {
-        "title": "Md Links",
-        "id": "3",
-        "img": "https://imgur.com/7iaMQuH.png",
-        "description": "",
-        "github": "",
-        "deploy": ""
-      },
-      {
-        "title": "Social Network",
-        "id": "4",
-        "img": "https://imgur.com/7iaMQuH.png",
-        "description": "",
-        "github": "",
-        "deploy": ""
-      },
-      {
-        "title": "Burgen Queen",
-        "id": "5",
-        "img": "https://imgur.com/7iaMQuH.png",
-        "description": "",
-        "github": "",
-        "deploy": ""
-      },
-      {
-        "title": "Talent Fest – Desafío BHP",
-        "id": "6",
-        "img": "https://imgur.com/7iaMQuH.png",
-        "description": "",
-        "github": "",
-        "deploy": ""
-      }
-      ]
-  }
+  "Projects": [
+    {
+      "title": "Talent Fest – Desafío BHP",
+      "id": "1",
+      "img": "https://imgur.com/6nmZM39.png",
+      "description": "Proyecto planteado como desafío en el Primer Talent Fest en Chile de Laboratoria, para la compañía minera BHP. El objetivo de esta aplicación web (First Mobile) es optimizar un proceso de protocolo de seguridad, que consta de dos etapas, primero realizar el cálculo de un indicador y luego responder un CheckList, para terminar con la descarga de un PDF de aprobación. ",
+      "github": "https://github.com/katherine-valcarce/DESAFIO_BHP",
+      "deploy": "https://desafio-bhp.web.app/",
+      "tools": [ {"tool":"https://imgur.com/VPMQYIy.png", "toolName":"React"},{"tool":"https://imgur.com/DOqjFzj.png","toolName":"Firebase"},{"tool":"https://imgur.com/KvgCYbF.png","toolName":"Bootstrap"},{"tool":"https://imgur.com/zu9STgH.png","toolName":"CSS3"},{"tool":"https://imgur.com/DJl7UES.png","toolName":"Figma"},{"tool":"https://imgur.com/5WAU6Y0.png","toolName":"JSON"},{"tool":"https://imgur.com/3fRGECp.png","toolName":"Balsamiq"}]
+    },
+    {
+      "title": "Burgir Space",
+      "id": "2",
+      "img": "https://imgur.com/sNClYGq.png",
+      "description": "Proyecto para un restaurante, con el objetivo de mostrar una interfaz en la que se puede visualizar la carta y tomar pedidos, editarlos o eliminarlos usando una tablet, también se puede ver el total de la cuenta y enviar las solicitudes a la cocina para que se preparen de forma ordenada y eficiente.",
+      "github": "https://github.com/katherine-valcarce/SCL017-Burger-Queen",
+      "deploy": "https://burgirspace.web.app/",
+      "tools": [ {"tool":"https://imgur.com/VPMQYIy.png", "toolName":"React"},{"tool":"https://imgur.com/DOqjFzj.png","toolName":"Firebase"},{"tool":"https://imgur.com/KvgCYbF.png","toolName":"Bootstrap"},{"tool":"https://imgur.com/zu9STgH.png","toolName":"CSS3"},{"tool":"https://imgur.com/DJl7UES.png","toolName":"Figma"},{"tool":"https://imgur.com/5WAU6Y0.png","toolName":"JSON"}]
+    },
+    {
+      "title": "Social Network DoIt",
+      "id": "3",
+      "img": "https://imgur.com/zoWlNZU.png",
+      "description": "Este proyecto se trata de una red social enfocada a compartir tutoriales en todo tipo, bajo el concepto do it yourself. El objetivo principal de aprendizaje de este proyecto fue construir una Single-page Application (SPA) con JavaScript Vanilla, y además que sea responsiva (para  iPhone 6/7/8 y Desktop) en la que podemos leer y escribir datos.",
+      "github": "https://github.com/katherine-valcarce/SCL017-social-network",
+      "deploy": "https://katherine-valcarce.github.io/SCL017-social-network/src/",
+      "tools": [ {"tool":"https://imgur.com/x0pdveb.png", "toolName":"JavaScript"},{"tool":"https://imgur.com/1vHnSv5.png","toolName":"HTML5"},{"tool":"https://imgur.com/zu9STgH.png","toolName":"CSS3"},{"tool":"https://imgur.com/DJl7UES.png","toolName":"Figma"},{"tool":"https://imgur.com/3fRGECp.png","toolName":"Balsamiq"},{"tool":"https://imgur.com/DOqjFzj.png","toolName":"Firebase"}]
+    },
+    {
+      "title": "Md Links",
+      "id": "4",
+      "img": "https://imgur.com/FYIrvhE.png",
+      "description": "Primer proyecto creando una librería JavaScript, se trata de un programa que se ejecuta usando Node.js y a través de líneas de comando (CLI), el objetivo del programa es identificar archivos Markdown, analizarlos e imprimir los links que va encontrando junto con la ruta de archivo, luego válida si los links están en funcionamiento. Es instalable vía NPM.",
+      "github": "https://github.com/katherine-valcarce/SCL017-md-link",
+      "deploy": "https://www.npmjs.com/package/md-links-kyvh",
+      "tools": [ {"tool":"https://imgur.com/YpIf4Ms.png", "toolName":"NodeJS"},{"tool":"https://imgur.com/TlU9KuL.png","toolName":"NPM"},{"tool":"https://imgur.com/x0pdveb.png", "toolName":"JavaScript"}]
+    },
+    {
+      "title": "Memory Match Pokemon",
+      "id": "5",
+      "img": "https://imgur.com/Iy2D2ZG.png",
+      "description": "Juego Memorice con la temática de Pokémon con un aspecto retro, el fin del juego es destapar parejas de cartas que coincidan y el objetivo de realizar este proyecto fue diseñar y construir una interfaz web basada en data e interacción con el usuario.",
+      "github": "https://github.com/katherine-valcarce/SCL017-memory-match-game",
+      "deploy": "https://katherine-valcarce.github.io/SCL017-memory-match-game/",
+      "tools": [ {"tool":"https://imgur.com/x0pdveb.png", "toolName":"JavaScript"},{"tool":"https://imgur.com/1vHnSv5.png","toolName":"HTML5"},{"tool":"https://imgur.com/zu9STgH.png","toolName":"CSS3"},{"tool":"https://imgur.com/LKlVfJK.png","toolName":"Trello"},{"tool":"https://imgur.com/DJl7UES.png","toolName":"Figma"},{"tool":"https://imgur.com/5WAU6Y0.png","toolName":"JSON"}]
+    },
+    {
+      "title": "Card validation",
+      "id": "6",
+      "img": "https://imgur.com/QpXWMUE.png",
+      "description": "Mi primer proyecto desarrollado se trata de una aplicación web que le permite al usuario validar el número de una tarjeta de crédito, validación basada en el método algoritmo de Luhn. Además oculta todos los dígitos ingresados menos los últimos cuatro.",
+      "github": "https://github.com/katherine-valcarce/SCL017-card-validation",
+      "deploy": "https://katherine-valcarce.github.io/SCL017-card-validation/src/",
+      "tools": [ {"tool":"https://imgur.com/x0pdveb.png", "toolName":"JavaScript"},{"tool":"https://imgur.com/1vHnSv5.png","toolName":"HTML5"},{"tool":"https://imgur.com/zu9STgH.png","toolName":"CSS3"},{"tool":"https://imgur.com/LKlVfJK.png","toolName":"Trello"}]
+    }
+
+    ]
+}
   

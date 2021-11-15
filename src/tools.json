@@ -1,10 +1,5 @@
 {
-    "tools1": [
-      {
-        "name": "BizAgi",
-        "id": "1",
-        "img": "https://imgur.com/7iaMQuH.png"
-      },
+    "tools": [
       {
         "name": "JavaScript",
         "id": "2",
@@ -19,9 +14,7 @@
         "name": "CSS3",
         "id": "4",
         "img": "https://imgur.com/zu9STgH.png"
-      }
-      ],
-      "tools2": [
+      },
       {
         "name": "Bootstrap",
         "id": "5",
@@ -41,9 +34,7 @@
         "name": "NodeJS",
         "id": "8",
         "img": "https://imgur.com/YpIf4Ms.png"
-      }
-      ],
-      "tools3": [
+      },
       {
         "name": "React",
         "id": "9",
@@ -63,6 +54,21 @@
         "name": "Balsamiq",
         "id": "12",
         "img": "https://imgur.com/3fRGECp.png"
+      },
+      {
+        "name": "GitHub",
+        "id": "13",
+        "img": "https://live.staticflickr.com/65535/51672648071_e9d24684f2.jpg"
+      },
+      {
+        "name": "Git Bash",
+        "id": "14",
+        "img": "https://live.staticflickr.com/65535/51671848632_4eeed6be07.jpg"
+      },
+      {
+        "name": "BizAgi",
+        "id": "1",
+        "img": "https://imgur.com/7iaMQuH.png"
       }
     ]
   }
