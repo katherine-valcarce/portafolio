@@ -4,6 +4,7 @@ import '../CSS/Contacts.css'
 const Contacts = () => {
     return (
         <div className='containerContacts'>
+            <h1 className='titleContact mobile'>Contactos</h1>
             <img className='imgContacts' src='https://imgur.com/HCACXsc.png' alt='icono contacto'></img>
             <div className='containerIconsContacts'>
                 <div className='containerIconContacts'>

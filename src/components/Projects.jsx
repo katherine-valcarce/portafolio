@@ -26,8 +26,8 @@ const Projects = () => {
                                 ))}
                                 </div> 
                                 <div className="containerBtnsProject">
-                                 <button className="btnsProject" onClick={() => { window.location.href = project.github; }}>Github <img className='imgIcon' src='https://imgur.com/tRL3xvU.png' alt=''></img></button>
-                                 <button className="btnsProject" onClick={() => { window.location.href = project.deploy; }}> Deploy <img className='imgIcon' src='https://imgur.com/0BtMbqe.png' alt=''></img> </button>
+                                 <button className="btnsProject" onClick={() => { window.location.href = project.github; }}>Github <img className='imgIconProjects' src='https://imgur.com/tRL3xvU.png' alt=''></img></button>
+                                 <button className="btnsProject" onClick={() => { window.location.href = project.deploy; }}> Deploy <img className='imgIconProjects' src='https://imgur.com/0BtMbqe.png' alt=''></img> </button>
                                 </div>
                             </div>
                                                          

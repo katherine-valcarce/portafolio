@@ -1,6 +1,6 @@
 import React from 'react'
 import NavMenu from './components/NavMenu';
-import Header from './components/Header';
+import Home from './components/Home';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './index.css';
 import AboutMe from './components/AboutMe';
@@ -16,7 +16,7 @@ const App = () => {
         <Switch>
           <Route path="/" exact={true}>
             <NavMenu/>
-            <Header />
+            <Home/>
           </Route>
           <Route path="/aboutMe">
             <NavMenu/>

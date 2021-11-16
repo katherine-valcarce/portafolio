@@ -9,6 +9,7 @@ const AboutMe = () => {
 
     return (
         <div className='containerAboutMe'>
+            <h1 className='titleAboutMe mobile'>Sobre mi</h1>
                 <p className='paragraphAboutMe'>El año 2018 me titulé de Ingeniería Comercial (Licenciatura en ciencias de la administración de empresas)
                     de la Universidad Tecnológica Metropolitana (UTEM), trabajé en el área contable de Agrosuper, hasta que conocí
                     <a className='linkLaboratoria' href="https://www.laboratoria.la/"> Laboratoria </a>
