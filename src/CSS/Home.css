@@ -26,7 +26,7 @@
 }
 .titleText{
   font-size: 200%;
-  animation: typewriter 3s steps(44) 1s 1 normal both,
+  animation: typewriter 2s steps(44) 1s 1 normal both,
   blinkTextCursor 500ms steps(44) 8 normal;
   transform: translateY(-50%);   
   white-space: nowrap;
@@ -36,7 +36,7 @@
 }
 .titleText2{
   font-size: 200%;
-  animation: typewriter2 3s steps(44) 4s 1 normal both,
+  animation: typewriter2 2s steps(44) 4s 1 normal both,
   blinkTextCursor2 700ms steps(44) 4s infinite normal;
   transform: translateY(-50%);   
   white-space: nowrap;
@@ -87,6 +87,7 @@ header{
 }
 .imgFondoHome{
   width: 90%;
+  opacity: 0.2;
 }
 @media only screen 
 and (min-device-width : 320px) 
@@ -131,7 +132,7 @@ and (max-device-width : 480px) {
       opacity: 0;
     }
     100% {
-      opacity: 1;
+      opacity: 0.2;
     }
   }
 }
